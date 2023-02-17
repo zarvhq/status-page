@@ -11,9 +11,8 @@ sites:
     url: https://auth.zarv.com
 
 status-website:
-  # cname: status.zarv.com
-  baseUrl: /
-  # logoUrl: https://cdn.zarv.com/statuspage/zarv-logo-square.png
+  cname: status.zarv.com
+  logoUrl: https://cdn.zarv.com/status-page/zarv-logo-square.png
   name: Zarv
   introTitle: Realtime Platform Monitoring
   introMessage: For more information, check out our [**Twitter page**](https://twitter.com/zarvhq) or [***open an issue***](https://github.com/$OWNER/$REPO/issues/new/choose) to our support team.
