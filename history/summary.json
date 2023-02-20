@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 159,
-    "timeDay": 179,
-    "timeWeek": 159,
-    "timeMonth": 159,
-    "timeYear": 159,
+    "time": 146,
+    "timeDay": 130,
+    "timeWeek": 146,
+    "timeMonth": 146,
+    "timeYear": 146,
     "dailyMinutesDown": {}
   },
   {
@@ -28,17 +28,17 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 222,
-    "timeDay": 330,
-    "timeWeek": 222,
-    "timeMonth": 222,
-    "timeYear": 222,
+    "time": 208,
+    "timeDay": 234,
+    "timeWeek": 208,
+    "timeMonth": 208,
+    "timeYear": 208,
     "dailyMinutesDown": {}
   },
   {
     "name": "Authentication",
     "url": "https://auth.zarv.com",
-    "icon": "https://icons.duckduckgo.com/ip3/auth.zarv.com.ico",
+    "icon": "https://cdn.zarv.com/favicon.ico",
     "slug": "authentication",
     "status": "down",
     "uptime": "0.00%",
@@ -46,16 +46,56 @@
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 124,
-    "timeDay": 109,
-    "timeWeek": 124,
-    "timeMonth": 124,
-    "timeYear": 124,
+    "time": 121,
+    "timeDay": 108,
+    "timeWeek": 121,
+    "timeMonth": 121,
+    "timeYear": 121,
     "dailyMinutesDown": {
-      "2023-02-20": 49,
+      "2023-02-20": 1304,
       "2023-02-19": 1440,
       "2023-02-18": 1440,
       "2023-02-17": 410
+    }
+  },
+  {
+    "name": "Whatsapp API",
+    "url": "https://api.twillio.com",
+    "icon": "https://icons.duckduckgo.com/ip3/api.twillio.com.ico",
+    "slug": "whatsapp-api",
+    "status": "down",
+    "uptime": "5.43%",
+    "uptimeDay": "5.43%",
+    "uptimeWeek": "5.43%",
+    "uptimeMonth": "5.43%",
+    "uptimeYear": "5.43%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2023-02-20": 0
+    }
+  },
+  {
+    "name": "Email API",
+    "url": "https://api.mailgun.org",
+    "icon": "https://icons.duckduckgo.com/ip3/api.mailgun.org.ico",
+    "slug": "email-api",
+    "status": "down",
+    "uptime": "0.53%",
+    "uptimeDay": "0.53%",
+    "uptimeWeek": "0.53%",
+    "uptimeMonth": "0.53%",
+    "uptimeYear": "0.53%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2023-02-20": 0
     }
   }
 ]
