@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 133,
-    "timeDay": 119,
-    "timeWeek": 133,
-    "timeMonth": 133,
-    "timeYear": 133,
+    "time": 130,
+    "timeDay": 110,
+    "timeWeek": 130,
+    "timeMonth": 130,
+    "timeYear": 130,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 224,
-    "timeDay": 244,
-    "timeWeek": 224,
-    "timeMonth": 224,
-    "timeYear": 224,
+    "time": 218,
+    "timeDay": 215,
+    "timeWeek": 218,
+    "timeMonth": 218,
+    "timeYear": 218,
     "dailyMinutesDown": {}
   },
   {
@@ -41,58 +41,58 @@
     "icon": "https://cdn.zarv.com/favicon.ico",
     "slug": "auth",
     "status": "down",
-    "uptime": "0.15%",
-    "uptimeDay": "0.15%",
-    "uptimeWeek": "0.15%",
-    "uptimeMonth": "0.15%",
-    "uptimeYear": "0.15%",
-    "time": 118,
-    "timeDay": 118,
-    "timeWeek": 118,
-    "timeMonth": 118,
-    "timeYear": 118,
-    "dailyMinutesDown": {
-      "2023-02-20": 12
-    }
-  },
-  {
-    "name": "Whatsapp API",
-    "url": "$API_WHATSAPP",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "whatsapp-api",
-    "status": "down",
-    "uptime": "0.06%",
-    "uptimeDay": "0.06%",
-    "uptimeWeek": "0.06%",
-    "uptimeMonth": "0.06%",
-    "uptimeYear": "0.06%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
-    "dailyMinutesDown": {
-      "2023-02-20": 20
-    }
-  },
-  {
-    "name": "Email API",
-    "url": "$API_EMAIL",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "email-api",
-    "status": "down",
     "uptime": "0.02%",
     "uptimeDay": "0.02%",
     "uptimeWeek": "0.02%",
     "uptimeMonth": "0.02%",
     "uptimeYear": "0.02%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "time": 112,
+    "timeDay": 112,
+    "timeWeek": 112,
+    "timeMonth": 112,
+    "timeYear": 112,
     "dailyMinutesDown": {
-      "2023-02-20": 20
+      "2023-02-20": 87
+    }
+  },
+  {
+    "name": "Whatsapp API",
+    "url": "$WHATSAPP_URL",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "whatsapp-api",
+    "status": "up",
+    "uptime": "0.13%",
+    "uptimeDay": "0.13%",
+    "uptimeWeek": "0.13%",
+    "uptimeMonth": "0.13%",
+    "uptimeYear": "0.13%",
+    "time": 197,
+    "timeDay": 197,
+    "timeWeek": 197,
+    "timeMonth": 197,
+    "timeYear": 197,
+    "dailyMinutesDown": {
+      "2023-02-20": 95
+    }
+  },
+  {
+    "name": "Email API",
+    "url": "$EMAIL_URL",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "email-api",
+    "status": "up",
+    "uptime": "0.07%",
+    "uptimeDay": "0.07%",
+    "uptimeWeek": "0.07%",
+    "uptimeMonth": "0.07%",
+    "uptimeYear": "0.07%",
+    "time": 95,
+    "timeDay": 95,
+    "timeWeek": 95,
+    "timeMonth": 95,
+    "timeYear": 95,
+    "dailyMinutesDown": {
+      "2023-02-20": 95
     }
   }
 ]
