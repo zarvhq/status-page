@@ -5,11 +5,20 @@ user-agent: costajoao
 sites:
   - name: Zarv Website
     url: https://www.zarv.com
+    expectedStatusCodes:
+      - 200
+      - 201
   - name: CDN
     url: https://cdn.zarv.com
+    expectedStatusCodes:
+      - 200
+      - 201
   - name: Auth
     url: https://auth.zarv.com
     icon: https://cdn.zarv.com/favicon.ico
+    expectedStatusCodes:
+      - 200
+      - 201
   - name: Whatsapp API
     url: $API_WHATSAPP
   - name: Email API
