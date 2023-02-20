@@ -20,11 +20,11 @@ sites:
       - 200
       - 201
   - name: Whatsapp API
-    url: $API_WHATSAPP
+    url: $WHATSAPP_URL
   - name: Email API
     check: "tcp-ping"
-    url: $API_EMAIL
-    port: 587
+    url: $EMAIL_URL
+    port: $EMAIL_PORT
 
 
 status-website:
@@ -32,12 +32,11 @@ status-website:
   logoUrl: https://cdn.zarv.com/status-page/zarv-logo-square.png
   favicon: https://cdn.zarv.com/favicon.ico
   name: Zarv
+  theme: light
   introTitle: Realtime Platform Monitoring
   introMessage: For more information, check out our [**Twitter page**](https://twitter.com/zarvhq) or [***open an issue***](https://github.com/zarvhq/status-page/issues/new/choose) to our support team.
   apiBaseUrl: https://api.github.com
   metaTags:
-    - name: "color-scheme"
-      content: "light"
     - name: "robots"
       content: "noindex"
   navbar:
