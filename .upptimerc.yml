@@ -31,10 +31,8 @@ status-website:
   cname: status.zarv.com
   logoUrl: https://cdn.zarv.com/status-page/zarv-logo-square.png
   favicon: https://cdn.zarv.com/favicon.ico
-  name: Zarv
+  name: Zarv Status
   theme: light
-  introTitle: Realtime Platform Monitoring
-  introMessage: For more information, check out our [**Twitter page**](https://twitter.com/zarvhq) or [***open an issue***](https://github.com/zarvhq/status-page/issues/new/choose) to our support team.
   apiBaseUrl: https://api.github.com
   metaTags:
     - name: "robots"
@@ -44,8 +42,8 @@ status-website:
       href: /
     - title: Docs
       href: https://docs.zarv.com
-    - title: Issues
-      href: https://github.com/$OWNER/$REPO/issues
+    - title: Report an Incident
+      href: https://github.com/zarvhq/status-page/issues/new/choose
   commitMessages:
     commitAuthorName: "J.A.R.V.I.S"
     commitAuthorEmail: "jarvis@zarv.com"
@@ -57,3 +55,6 @@ status-website:
     updateTemplate: "0 0 * * *"
     updates: "0 1 * * *"
     uptime: "*/5 * * * *"
+  skipDescriptionUpdate: true
+  skipTopicsUpdate: true
+  skipHomepageUpdate: true
