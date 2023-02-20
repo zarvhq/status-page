@@ -33,7 +33,7 @@ status-website:
   favicon: https://cdn.zarv.com/favicon.ico
   name: Zarv
   introTitle: Realtime Platform Monitoring
-  introMessage: For more information, check out our [**Twitter page**](https://twitter.com/zarvhq) or [***open an issue***](https://github.com/$OWNER/$REPO/issues/new/choose) to our support team.
+  introMessage: For more information, check out our [**Twitter page**](https://twitter.com/zarvhq) or [***open an issue***](https://github.com/zarvhq/status-page/issues/new/choose) to our support team.
   apiBaseUrl: https://api.github.com
   metaTags:
     - name: "color-scheme"
