@@ -14,18 +14,32 @@ sites:
       - 200
       - 201
   - name: Auth
-    url: https://auth.zarv.com
+    url: $AUTH_URL
     icon: https://cdn.zarv.com/favicon.ico
     expectedStatusCodes:
       - 200
       - 201
-  - name: Whatsapp API
+  - name: Events Service
+    url: $EVENTS_URL
+    icon: https://cdn.zarv.com/favicon.ico
+    __dangerous__body_down_if_text_missing: '"status":"operational"'
+  - name: CRM Service
+    url: $CRM_URL
+    icon: https://icons.duckduckgo.com/ip3/www.customerio.com.ico
+    __dangerous__body_down_if_text_missing: '"status":"operational"'
+  - name: Voice Service
+    url: $VOICE_URL
+    icon: https://icons.duckduckgo.com/ip3/www.twilio.com.ico
+    __dangerous__body_down_if_text_missing: '"status":"operational"'
+  - name: Whatsapp Service
     url: $WHATSAPP_URL
-  - name: Email API
+    icon: https://icons.duckduckgo.com/ip3/www.twilio.com.ico
+    __dangerous__body_down_if_text_missing: '"status":"operational"'
+  - name: Email Service
     check: "tcp-ping"
     url: $EMAIL_URL
     port: $EMAIL_PORT
-
+    icon: https://icons.duckduckgo.com/ip3/www.mailgun.com.ico
 
 status-website:
   cname: status.zarv.com
@@ -44,17 +58,20 @@ status-website:
       href: https://docs.zarv.com
     - title: Report an Incident
       href: https://github.com/zarvhq/status-page/issues/new/choose
-  commitMessages:
-    commitAuthorName: "J.A.R.V.I.S"
-    commitAuthorEmail: "jarvis@zarv.com"
-  workflowSchedule:
-    graphs: "0 0 * * *"
-    responseTime: "0 23 * * *"
-    staticSite: "0 1 * * *"
-    summary: "0 0 * * *"
-    updateTemplate: "0 0 * * *"
-    updates: "0 1 * * *"
-    uptime: "*/5 * * * *"
-  skipDescriptionUpdate: true
-  skipTopicsUpdate: true
-  skipHomepageUpdate: true
+
+commitMessages:
+  commitAuthorName: "J.A.R.V.I.S"
+  commitAuthorEmail: "jarvis@zarv.com"
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 1 * * *"
+  uptime: "*/5 * * * *"
+  
+skipDescriptionUpdate: true
+skipTopicsUpdate: true
+skipHomepageUpdate: true
