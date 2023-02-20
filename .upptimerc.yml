@@ -1,6 +1,6 @@
 owner: zarvhq
 repo: status-page
-user-agent: ZarvBot
+user-agent: costajoao
 
 sites:
   - name: Zarv Website
@@ -9,17 +9,23 @@ sites:
     url: https://cdn.zarv.com
   - name: Authentication
     url: https://auth.zarv.com
+    icon: https://cdn.zarv.com/favicon.ico
+  - name: Whatsapp API
+    url: https://api.twillio.com
+  - name: Email API
+    url: https://api.mailgun.org
 
 status-website:
   cname: status.zarv.com
   logoUrl: https://cdn.zarv.com/status-page/zarv-logo-square.png
+  favicon: https://cdn.zarv.com/favicon.ico
   name: Zarv
   introTitle: Realtime Platform Monitoring
   introMessage: For more information, check out our [**Twitter page**](https://twitter.com/zarvhq) or [***open an issue***](https://github.com/$OWNER/$REPO/issues/new/choose) to our support team.
   apiBaseUrl: https://api.github.com
   metaTags:
     - name: "color-scheme"
-      content: "dark light"
+      content: "light"
     - name: "robots"
       content: "noindex"
   navbar:
@@ -40,6 +46,3 @@ status-website:
     updateTemplate: "0 0 * * *"
     updates: "0 1 * * *"
     uptime: "*/5 * * * *"
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
