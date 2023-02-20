@@ -1,7 +1,7 @@
-url: $API_EMAIL
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2023-02-20T23:03:21.680Z
+url: $EMAIL_URL
+status: up
+code: 200
+responseTime: 95
+lastUpdated: 2023-02-20T23:18:26.959Z
 startTime: Mon Feb 20 2023 21:43:26 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
