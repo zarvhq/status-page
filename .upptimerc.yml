@@ -7,13 +7,16 @@ sites:
     url: https://www.zarv.com
   - name: CDN
     url: https://cdn.zarv.com
-  - name: Authentication
+  - name: Auth
     url: https://auth.zarv.com
     icon: https://cdn.zarv.com/favicon.ico
   - name: Whatsapp API
-    url: https://api.twillio.com
+    url: $API_WHATSAPP
   - name: Email API
-    url: https://api.mailgun.org
+    check: "tcp-ping"
+    url: $API_EMAIL
+    port: 587
+
 
 status-website:
   cname: status.zarv.com
