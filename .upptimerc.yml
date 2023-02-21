@@ -54,10 +54,6 @@ status-website:
     - name: "robots"
       content: "noindex"
   navbar:
-    - title: "Home"
-      href: /
-    - title: Docs
-      href: https://docs.zarv.com
     - title: Report an Incident
       href: https://github.com/zarvhq/status-page/issues/new?assignees=&labels=incident&template=incident-report.md&title=
 
