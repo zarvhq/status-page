@@ -57,7 +57,7 @@ status-website:
     - title: Docs
       href: https://docs.zarv.com
     - title: Report an Incident
-      href: https://github.com/zarvhq/status-page/issues/new/choose
+      href: https://github.com/zarvhq/status-page/issues/new?assignees=&labels=incident&template=incident-report.md&title=
 
 commitMessages:
   commitAuthorName: "J.A.R.V.I.S"
