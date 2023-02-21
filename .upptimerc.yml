@@ -49,7 +49,7 @@ status-website:
   footer: "&copy; 2023 Zarv Inc - [Privacy](https://www.zarv.com/legal/privacy)"
   name: Zarv Status
   theme: light
-  themeUrl: https://status.zarv.com/zarv-status.css
+  themeUrl: /zarv-status.css
   apiBaseUrl: https://api.github.com
   metaTags:
     - name: "robots"
