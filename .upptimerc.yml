@@ -59,10 +59,6 @@ status-website:
     - title: Report an Incident
       href: https://github.com/zarvhq/status-page/issues/new?assignees=&labels=incident&template=incident-report.md&title=
 
-commitMessages:
-  commitAuthorName: "J.A.R.V.I.S"
-  commitAuthorEmail: "jarvis@zarv.com"
-
 workflowSchedule:
   graphs: "0 0 * * *"
   responseTime: "0 23 * * *"
