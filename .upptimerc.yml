@@ -44,7 +44,8 @@ sites:
 status-website:
   cname: status.zarv.com
   logoUrl: https://cdn.zarv.com/status-page/zarv-logo-square.png
-  favicon: https://cdn.zarv.com/favicon.ico
+  favicon: https://cdn.zarv.com/favicon.png
+  faviconSvg: https://cdn.zarv.com/favicon.svg
   name: Zarv Status
   theme: light
   apiBaseUrl: https://api.github.com
