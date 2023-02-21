@@ -1,0 +1,12 @@
+:root {
+  --nav-current-border-bottom-color: #5e2a7c;
+  --body-background-color: #f9f9fb;
+  --card-border-color: #d8e8e4;
+}
+article {
+  box-shadow: rgb(67 90 111 / 30%) 0px 0px 1px, rgb(67 90 111 / 47%) 0px 2px 4px -2px;
+  margin-bottom: 20px;
+}
+.logo {
+  font-size: 1.5em;
+}

@@ -46,8 +46,10 @@ status-website:
   logoUrl: https://cdn.zarv.com/status-page/zarv-logo-square.png
   favicon: https://cdn.zarv.com/favicon.png
   faviconSvg: https://cdn.zarv.com/favicon.svg
+  footer: "&copy; 2023 Zarv Inc - [Privacy](https://www.zarv.com/legal/privacy)"
   name: Zarv Status
   theme: light
+  themeUrl: https://status.zarv.com/zarv-status.css
   apiBaseUrl: https://api.github.com
   metaTags:
     - name: "robots"
