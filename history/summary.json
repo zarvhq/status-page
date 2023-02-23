@@ -52,7 +52,7 @@
     "timeMonth": 116,
     "timeYear": 116,
     "dailyMinutesDown": {
-      "2023-02-23": 45,
+      "2023-02-23": 755,
       "2023-02-22": 1440,
       "2023-02-21": 1440,
       "2023-02-20": 129
@@ -99,18 +99,20 @@
     "url": "$VOICE_URL",
     "icon": "https://icons.duckduckgo.com/ip3/www.twilio.com.ico",
     "slug": "voice-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 279,
-    "timeDay": 323,
-    "timeWeek": 279,
-    "timeMonth": 279,
-    "timeYear": 279,
-    "dailyMinutesDown": {}
+    "time": 277,
+    "timeDay": 279,
+    "timeWeek": 277,
+    "timeMonth": 277,
+    "timeYear": 277,
+    "dailyMinutesDown": {
+      "2023-02-23": 0
+    }
   },
   {
     "name": "Whatsapp Service",
