@@ -52,7 +52,7 @@
     "timeMonth": 116,
     "timeYear": 116,
     "dailyMinutesDown": {
-      "2023-02-27": 47,
+      "2023-02-27": 1136,
       "2023-02-26": 1440,
       "2023-02-25": 1440,
       "2023-02-24": 1440,
@@ -67,9 +67,9 @@
     "url": "$EVENTS_URL",
     "icon": "https://cdn.zarv.com/favicon.ico",
     "slug": "events-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -78,16 +78,18 @@
     "timeWeek": 346,
     "timeMonth": 346,
     "timeYear": 346,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-02-27": 0
+    }
   },
   {
     "name": "CRM Service",
     "url": "$CRM_URL",
     "icon": "https://icons.duckduckgo.com/ip3/www.customerio.com.ico",
     "slug": "crm-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -96,25 +98,28 @@
     "timeWeek": 315,
     "timeMonth": 315,
     "timeYear": 315,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-02-27": 0
+    }
   },
   {
     "name": "Voice Service",
     "url": "$VOICE_URL",
     "icon": "https://icons.duckduckgo.com/ip3/www.twilio.com.ico",
     "slug": "voice-service",
-    "status": "up",
-    "uptime": "78.92%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "78.92%",
-    "uptimeMonth": "78.92%",
-    "uptimeYear": "78.92%",
+    "status": "down",
+    "uptime": "81.26%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "81.26%",
+    "uptimeMonth": "81.26%",
+    "uptimeYear": "81.26%",
     "time": 276,
     "timeDay": 360,
     "timeWeek": 276,
     "timeMonth": 276,
     "timeYear": 276,
     "dailyMinutesDown": {
+      "2023-02-27": 0,
       "2023-02-24": 1149,
       "2023-02-23": 685
     }
@@ -124,9 +129,9 @@
     "url": "$WHATSAPP_URL",
     "icon": "https://icons.duckduckgo.com/ip3/www.twilio.com.ico",
     "slug": "whatsapp-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -135,7 +140,9 @@
     "timeWeek": 118,
     "timeMonth": 118,
     "timeYear": 118,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-02-27": 0
+    }
   },
   {
     "name": "Email Service",
