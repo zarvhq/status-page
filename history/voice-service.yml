@@ -1,7 +1,7 @@
 url: $VOICE_URL
-status: up
+status: down
 code: 200
-responseTime: 191
-lastUpdated: 2023-03-06T03:57:33.813Z
+responseTime: 183
+lastUpdated: 2023-03-06T17:35:36.404Z
 startTime: Mon Feb 20 2023 23:48:01 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
