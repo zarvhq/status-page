@@ -1,7 +1,7 @@
 url: $WHATSAPP_URL
-status: up
+status: down
 code: 200
-responseTime: 178
-lastUpdated: 2023-03-05T23:03:07.106Z
+responseTime: 169
+lastUpdated: 2023-03-06T16:41:09.755Z
 startTime: Mon Feb 20 2023 23:48:01 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
