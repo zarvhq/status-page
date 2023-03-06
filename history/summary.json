@@ -52,7 +52,7 @@
     "timeMonth": 116,
     "timeYear": 116,
     "dailyMinutesDown": {
-      "2023-03-06": 1072,
+      "2023-03-06": 1080,
       "2023-03-05": 1440,
       "2023-03-04": 1440,
       "2023-03-03": 1440,
@@ -132,19 +132,19 @@
     "url": "$WHATSAPP_URL",
     "icon": "https://icons.duckduckgo.com/ip3/www.twilio.com.ico",
     "slug": "whatsapp-service",
-    "status": "down",
-    "uptime": "99.64%",
-    "uptimeDay": "95.10%",
-    "uptimeWeek": "99.30%",
-    "uptimeMonth": "99.64%",
-    "uptimeYear": "99.64%",
-    "time": 125,
-    "timeDay": 174,
-    "timeWeek": 141,
-    "timeMonth": 125,
-    "timeYear": 125,
+    "status": "up",
+    "uptime": "99.60%",
+    "uptimeDay": "94.56%",
+    "uptimeWeek": "99.22%",
+    "uptimeMonth": "99.60%",
+    "uptimeYear": "99.60%",
+    "time": 124,
+    "timeDay": 149,
+    "timeWeek": 137,
+    "timeMonth": 124,
+    "timeYear": 124,
     "dailyMinutesDown": {
-      "2023-03-06": 71
+      "2023-03-06": 78
     }
   },
   {
